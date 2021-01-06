@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+export INFLUXDB_USER_PASSWORD=##put-a-secure-password##
+export INFLUXDB_USER=metrics
+export INFLUXDB_DB=metrics
+export GF_SECURITY_ADMIN_PASSWORD=##put-a-secure-password##
+export GF_SERVER_ROOT_URL=http://localhost:3000
